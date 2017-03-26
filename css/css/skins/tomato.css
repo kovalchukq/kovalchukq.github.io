@@ -1,0 +1,31 @@
+/*
+Error: Indenting at the beginning of the document is illegal.
+        on line 1 of C:\Users\kowal\Desktop\wordpress-landing-page-lesson-master\__clean_html_original\css\sass\skins\tomato.sass
+
+1:  @import "../bourbon/bourbon"
+2: 
+3: $color: #FF6347 //Theme skin
+4: $text_color: #888
+5: $main_color: #222
+6: $bg_light: #FAFAFA
+
+Backtrace:
+C:\Users\kowal\Desktop\wordpress-landing-page-lesson-master\__clean_html_original\css\sass\skins\tomato.sass:1
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:448:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:404:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Indenting at the beginning of the document is illegal.\A         on line 1 of C:\Users\kowal\Desktop\wordpress-landing-page-lesson-master\__clean_html_original\css\sass\skins\tomato.sass\A \A 1:  @import \"../bourbon/bourbon\"\A 2: \A 3: $color: #FF6347 //Theme skin\A 4: $text_color: #888\A 5: $main_color: #222\A 6: $bg_light: #FAFAFA"; }
